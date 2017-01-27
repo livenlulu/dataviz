@@ -1,8 +1,9 @@
   .fixel_projects {
     width: 56.7010309%;
-    float: right;
+  /*  float: right;*/
     position: relative;
     z-index: 65;
+    margin: auto;
 }
   .fixel_projects:hover img.left {
     -webkit-transform-origin: center center;
