@@ -8,18 +8,18 @@
   .fixel_projects:hover img.left {
     -webkit-transform-origin: center center;
     transform-origin: center center;
-    -webkit-transform: rotate(-10deg) translate(-80px, -30px);
-    -moz-transform: rotate(-10deg) translate(-80px, -30px);
-    -ms-transform: rotate(-10deg) translate(-80px, -30px);
-    --transform: rotate(-10deg) translate(-80px, -30px)
+    -webkit-transform: rotate(-10deg) translate(-60px, -30px);
+    -moz-transform: rotate(-10deg) translate(-60px, -30px);
+    -ms-transform: rotate(-10deg) translate(-60px, -30px);
+    --transform: rotate(-10deg) translate(-60px, -30px)
 }
   .fixel_projects:hover img.right {
     -webkit-transform-origin: center center;
     transform-origin: center center;
-    -webkit-transform: rotate(10deg) translate(80px, -30px);
-    -moz-transform: rotate(10deg) translate(80px, -30px);
-    -ms-transform: rotate(10deg) translate(80px, -30px);
-    --transform: rotate(10deg) translate(80px, -30px)
+    -webkit-transform: rotate(10deg) translate(60px, -30px);
+    -moz-transform: rotate(10deg) translate(60px, -30px);
+    -ms-transform: rotate(10deg) translate(60px, -30px);
+    --transform: rotate(10deg) translate(60px, -30px)
 }
   .fixel_projects:hover img.center {
     -webkit-transform: scale(1.1);
