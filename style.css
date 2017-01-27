@@ -1,0 +1,53 @@
+  .fixel_projects {
+    width: 56.7010309%;
+    float: right;
+    position: relative;
+    z-index: 65
+}
+  .fixel_projects:hover img.left {
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transform: rotate(-10deg) translate(-80px, -30px);
+    -moz-transform: rotate(-10deg) translate(-80px, -30px);
+    -ms-transform: rotate(-10deg) translate(-80px, -30px);
+    --transform: rotate(-10deg) translate(-80px, -30px)
+}
+  .fixel_projects:hover img.right {
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transform: rotate(10deg) translate(80px, -30px);
+    -moz-transform: rotate(10deg) translate(80px, -30px);
+    -ms-transform: rotate(10deg) translate(80px, -30px);
+    --transform: rotate(10deg) translate(80px, -30px)
+}
+  .fixel_projects:hover img.center {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1)
+}
+  .fixel_projects img {
+    display: block;
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    transition: all 320ms ease-in-out;
+}
+  .fixel_projects img.left,
+  .fixel_projects img.right {
+    position: absolute;
+    top: 32px;
+    z-index: 30;
+    width: 40%;
+    height: auto;
+}
+  .fixel_projects img.left {
+    left: 0
+}
+  .fixel_projects img.right {
+    right: 0
+}
+  .fixel_projects img.center {
+    margin: 0 auto;
+    position: relative;
+    z-index: 32;
+    width: 50%;
+    height: auto
+}
