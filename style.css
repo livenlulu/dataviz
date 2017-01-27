@@ -35,7 +35,7 @@
     position: absolute;
     top: 32px;
     z-index: 30;
-    width: 40%;
+    width: 50%;
     height: auto;
 }
   .fixel_projects img.left {
@@ -48,6 +48,6 @@
     margin: 0 auto;
     position: relative;
     z-index: 32;
-    width: 50%;
+    width: 64%;
     height: auto
 }
